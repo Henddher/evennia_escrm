@@ -23,4 +23,22 @@
 # system for loading python-code this way.
 #
 
-
+############
+#
+@call/del stone = get
+#
+############
+#
+@call/add stone = get
+#
+import evennia
+#
+character.msg("%s grabbed %s" % (character, obj))
+#
+:wq
+#
+############
+#
+@call stone
+#
+############

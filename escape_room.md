@@ -11,11 +11,11 @@ Components
 - push button
     CANNOT be a puzzle. Needs rules
 
-- button to turn on a light (latch)
+- button to turn on a light that cannot be turned off (latch)
     @puzzle onoff, on_button = off_button
     @puzzle offon, off_button = on_button, light_on
 
-- push button to turn on an off a light
+- push button to turn on and off a light
     CANNOT be a puzzle. Needs rules
 
     @createrule
@@ -68,3 +68,6 @@ Commands on Characters
 
 - unlock (activate, enter)
     == unlock <lock>, <key|code>
+
+- use (put)
+    == use ball, hole in the wall

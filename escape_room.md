@@ -59,7 +59,7 @@ Commands on Characters
 
 - move <object>
 
-- takefrom <object with contents>[,<object within>[,...]]
+- takefrom|putin <object with contents>[,<object within>[,...]]
 
 - look under (behind, etc.) box
   @create/drop under box
